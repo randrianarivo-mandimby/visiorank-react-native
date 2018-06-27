@@ -3,16 +3,11 @@ export default {
       paddingTop: 35,
       flex: 1,
     },
-    separatorTop: {
-      marginBottom: 30,
-      height: 125,
+    navItemStyle: {
+      padding: 10
     },
-    sectionHeadingStyle: {
-      textAlign: 'left',
-      marginLeft: 15,
+    navSectionStyle: {
+      backgroundColor: 'lightgrey'
     },
-    button: {
-      backgroundColor: 'grey',
-      justifyContent: 'center',
-    }
+
   };

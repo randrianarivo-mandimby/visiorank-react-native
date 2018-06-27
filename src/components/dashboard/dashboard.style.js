@@ -1,10 +1,14 @@
 export default  {
 
-    container: {
+    parent: {
+        flexDirection: 'column',
+        backgroundColor: 'white',
+    },
+
+    childtwo: {
         marginLeft: 30,
         marginRight: 30,
-        marginTop: 25,
-      
+        marginTop: 0,
     },
       
     containervisiteone: {
@@ -41,6 +45,7 @@ export default  {
     bigtitle: {
         textAlign: 'left',
         marginRight: 20,
+        marginTop: 20,
     },
       
     submit: {

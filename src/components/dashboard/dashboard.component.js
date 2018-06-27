@@ -1,41 +1,44 @@
 import React, { Component } from 'react'
 import { Text, View, ScrollView } from 'react-native';
 import styles from './dashboard.style';
+import AppheaderContainer from '../appheader/appheader.container';
 
 export const Dashboard = () => (
     
-    <View style={styles.container}>
+    <View style={styles.parent}>
 
-        <Text style={styles.bigtitle}>Detail</Text>
-        
-        <ScrollView>
+        <AppheaderContainer/>
 
-          <View style={styles.submit}>
-                  
-              <View style={styles.containervisiteone}>
-                  
-              </View>
-              
-              <View style={styles.containervisitetwo}>
-                  
-              </View> 
+        <ScrollView style={styles.childtwo}>
 
-          </View>
+            <Text style={styles.bigtitle}>Detail</Text>
 
-          <View style={styles.submit}>
-                  
-              <View style={styles.containerappelone}>
-                  
-              </View>
-              
-              <View style={styles.containerappeltwo}>
-                  
-              </View> 
+            <View style={styles.submit}>
+                    
+                <View style={styles.containervisiteone}>
+                    
+                </View>
+                
+                <View style={styles.containervisitetwo}>
+                    
+                </View> 
 
-          </View>
+            </View>
+
+            <View style={styles.submit}>
+                    
+                <View style={styles.containerappelone}>
+                    
+                </View>
+                
+                <View style={styles.containerappeltwo}>
+                    
+                </View> 
+
+            </View>
 
         </ScrollView>
-        
+
     </View>
 
 )

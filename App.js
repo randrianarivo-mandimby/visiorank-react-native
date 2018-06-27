@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 import {StyleSheet, View } from 'react-native';
-import { Drawer } from "./src/components/appdrawer/config/navigation";
+import Drawer from "./src/components/appdrawer/config/navigation";
 
 //components after login
 import DashboardContainer from './src/components/dashboard/dashboard.container';
